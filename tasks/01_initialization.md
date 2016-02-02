@@ -1,6 +1,8 @@
 ---
-title: As a developer I want a continuous deployment environment setup for my new Rails application.
+title: Deployment Environment
 ---
+
+## As a developer I want a continuous deployment environment setup for my new Rails application.
 
 Acceptance criteria:
 - [ ] GitHub is used for source control.
