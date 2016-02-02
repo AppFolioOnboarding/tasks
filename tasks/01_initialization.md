@@ -1,6 +1,5 @@
 ---
-title: As a developer I want a continuous deployment environment setup for my new Rails application.
-new_title: Deployment Environment
+title: Deployment Environment
 ---
 
 ## As a developer I want a continuous deployment environment setup for my new Rails application.

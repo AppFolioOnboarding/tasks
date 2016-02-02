@@ -1,6 +1,5 @@
 ---
-title: As a user I want to delete an image.
-new_title: Delete Image
+title: Delete Image
 ---
 
 ## As a user I want to delete an image.

@@ -1,6 +1,5 @@
 ---
-title: As a user I want to be suggested tags as I type them in.
-new_title: Tag Suggestion
+title: Tag Suggestion
 ---
 
 ## As a user I want to be suggested tags as I type them in.

@@ -1,6 +1,5 @@
 ---
-title: As a user I want to see a list of tags and the number of images associated with each.
-new_title: Tag Index
+title: Tag Index
 ---
 
 ## As a user I want to see a list of tags and the number of images associated with each.

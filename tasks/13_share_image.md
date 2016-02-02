@@ -1,6 +1,5 @@
 ---
-title: As a user I want to be able to share an image via email.
-new_title: Share Image
+title: Share Image
 ---
 
 ## As a user I want to be able to share an image via email.

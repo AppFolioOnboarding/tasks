@@ -1,6 +1,5 @@
 ---
-title: As a user I want to be able to edit the tag list for an image.
-new_title: Modify Tag List
+title: Modify Tag List
 ---
 
 ## As a user I want to be able to edit the tag list for an image.

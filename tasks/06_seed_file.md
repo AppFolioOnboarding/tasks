@@ -1,6 +1,5 @@
 ---
-title: As a developer I want at least 20 images to be created when I setup the database.
-new_title: Image Seeds
+title: Image Seeds
 ---
 
 ## As a developer I want at least 20 images to be created when I setup the database.

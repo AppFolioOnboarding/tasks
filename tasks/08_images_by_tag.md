@@ -1,6 +1,5 @@
 ---
-title: As a user I want to view all images associated with a tag.
-new_title: Images by Tag
+title: Images by Tag
 ---
 
 ## As a user I want to view all images associated with a tag.

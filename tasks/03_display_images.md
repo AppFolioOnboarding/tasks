@@ -1,6 +1,5 @@
 ---
-title: As a user I want the homepage to display all saved images.
-new_title: Image Index
+title: Image Index
 ---
 
 ## As a user I want the homepage to display all saved images.

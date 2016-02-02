@@ -1,6 +1,5 @@
 ---
-title: As a user I want to add tags to images.
-new_title: Image Tags
+title: Image Tags
 ---
 
 ## As a user I want to add tags to images.
