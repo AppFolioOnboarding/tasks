@@ -2,7 +2,7 @@
 title: Tag Index
 ---
 
-## As a user I want to see a list of tags and the number of images associated with each.
+#### As a user I want to see a list of tags and the number of images associated with each.
 
 Acceptance criteria:
 - [ ] The tag list should be sorted by frequency with the most common first.

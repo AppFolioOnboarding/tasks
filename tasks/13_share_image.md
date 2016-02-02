@@ -2,7 +2,7 @@
 title: Share Image
 ---
 
-## As a user I can share an image via email.
+#### As a user I can share an image via email.
 
 Acceptance criteria:
 - [ ] A bootstrap modal should appear with a form to send the email.
