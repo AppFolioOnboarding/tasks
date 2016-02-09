@@ -8,4 +8,12 @@ appfolioonboarding/ss-vanity
 appfolioonboarding/vanilla
 EOF
 
-sync_issues tasks -u $REPOS
+FLAGS="-u"
+
+if [ $# -eq 1 ]; then
+    if [ "$1" == "--create" ]; then
+        FLAGS=""
+    fi
+fi
+
+sync_issues tasks $FLAGS $REPOS
