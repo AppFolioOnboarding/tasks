@@ -22,13 +22,13 @@ The frontmatter of a `task.md` file can contain the following attributes:
 
 ## Synchronizing Tasks
 
-Tasks should be synchronized using the `sync_tasks` tool. Install via:
+Tasks should be synchronized using the `sync_issues` tool. Install via:
 
-    gem install sync_tasks
+    gem install sync_issues
 
 Then synchronize to one or more GitHub repositories via:
 
-    sync_tasks /path/to/tasks/directory bboe/repo1 appfolio/repo2
+    sync_issues /path/to/tasks/directory bboe/repo1 appfolio/repo2
 
 New issues will be created according to lexicographic filename order when an
 issue doesn't already exist with a matching title as specified in the file's
