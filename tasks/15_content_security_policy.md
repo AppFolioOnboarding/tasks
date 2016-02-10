@@ -21,7 +21,7 @@ following accomplishes that task:
 
 
 Acceptance criteria:
-- [ ] Every request outputs the above content security policy header.
+- [ ] Every request outputs an appropriate content security policy header.
 - [ ] There are no content security policy violations in chrome's console.
 - [ ] The user interface remains the same.
 
