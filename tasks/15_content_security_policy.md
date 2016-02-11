@@ -2,7 +2,7 @@
 title: Content Security Policy
 ---
 
-#### As a security-minded developer, I want to obviate all cross site scripting (XSS) attacks.
+#### As a security-minded developer I want to obviate all cross site scripting (XSS) attacks.
 
 A strong content security policy can be used to prevent XSS and other
 attacks. With many things security related, it is a good idea to disallow
@@ -27,4 +27,7 @@ Acceptance criteria:
 
 
 Reference material:
-- https://www.owasp.org/index.php/Content_Security_Policy_Cheat_Sheet
+- https://www.owasp.org/index.php/Content_Security_Policy_Cheat_Sheeti
+
+Dependencies:
+- Image Index

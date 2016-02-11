@@ -6,3 +6,7 @@ title: Delete Image
 
 Acceptance criteria:
 - [ ] The user is prompted for confirmation prior to deletion.
+- [ ] Deleted images are removed from the homepage.
+
+Dependencies:
+- Image Index

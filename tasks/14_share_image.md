@@ -2,10 +2,12 @@
 title: Share Image
 ---
 
-#### As a user I can share an image via email.
+#### As a user I want to share an image with someone via email.
 
 Acceptance criteria:
-- [ ] A bootstrap modal should appear with a form to send the email.
+- [ ] There is a link to share an image.
+- [ ] After clicking on this link, a bootstrap modal appears with a form to
+  send the email.
 - [ ] The modal closes and a success message is shown if the email was sent
   successfully.
 - [ ] The user is alerted of errors if the operation was unsuccessful.
