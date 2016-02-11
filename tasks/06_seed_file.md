@@ -9,3 +9,6 @@ Acceptance criteria:
   homepage.
 - [ ] When a new app is deployed on heroku (e.g., every review app), that app
   has at least 20 images on its homepage.
+
+Dependencies:
+- Image Index
