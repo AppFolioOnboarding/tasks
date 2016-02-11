@@ -9,11 +9,10 @@ Acceptance criteria:
 - [ ] I have added a test for the "delete an existing image" flow.
 - [ ] Any additional flows I've added to my application before this story are
   tested.
-- [ ] Going forward, I will add capybara tests during regular feature
-  development (rather than as separate stories).
 
 Discussion topics:
 - [ ] What can you test in flow tests that you cannot test in controller tests?
+- [ ] Going forward, when should we add flow tests?
 - [ ] What are the tradeoffs between different drivers for capybara?
 - [ ] How can Capybara help us with timing issues in our tests?
 - [ ] How can we keep our tests DRY?
