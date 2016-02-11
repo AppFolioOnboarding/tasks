@@ -10,6 +10,7 @@ Acceptance criteria:
 - [ ] The tag name (not its ID) is used to perform the filtering.
 
 Discussion topics:
+- Where should we implement this functionality?
 - What happens if a user tries to manually filter by a nonexistent tag?
 
 Dependencies:
