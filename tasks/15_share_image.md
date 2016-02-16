@@ -12,7 +12,7 @@ Acceptance criteria:
   successfully.
 - [ ] The user is alerted of errors if the operation was unsuccessful.
 
-Discussion Topics:
+Discussion topics:
 - [ ] How could we develop the front end and back end separately? (And why
   might that be a good idea?)
 - [ ] How should we implement a non-CRUD action?
@@ -21,6 +21,13 @@ Discussion Topics:
 - [ ] How should we go about sending emails from our Rails app?
 - [ ] How could we show a preview of the image being shared in the modal?
 - [ ] What are the implications of allowing users to send emails from our app?
+
+Reference material:
+- http://v4-alpha.getbootstrap.com/components/modal
+- http://guides.rubyonrails.org/action_mailer_basics.html
+- https://elements.heroku.com/addons/sendgrid
+- https://devcenter.heroku.com/articles/sendgrid#ruby-rails
+- https://github.com/rails/jquery-ujs/wiki
 
 Dependencies:
 - ES6 configuration
