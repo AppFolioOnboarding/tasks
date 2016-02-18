@@ -6,6 +6,8 @@ appfolioonboarding/Haomin_ImageUploader
 appfolioonboarding/Li_Image_Share
 appfolioonboarding/ss-vanity
 appfolioonboarding/vanilla
+appfolioonboarding/paul_image_share
+appfolioonboarding/perkins_eidolon
 EOF
 
 FLAGS="-u"
