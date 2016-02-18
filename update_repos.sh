@@ -6,8 +6,6 @@ appfolioonboarding/Haomin_ImageUploader
 appfolioonboarding/Li_Image_Share
 appfolioonboarding/ss-vanity
 appfolioonboarding/vanilla
-appfolioonboarding/tempforsetup
-appfolioonboarding/mjewell_image_sharer
 appfolioonboarding/paul_image_share
 appfolioonboarding/perkins_eidolon
 EOF
