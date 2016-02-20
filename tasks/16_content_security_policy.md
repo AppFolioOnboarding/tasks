@@ -1,5 +1,6 @@
 ---
 title: Content Security Policy
+assignee: bboe
 ---
 
 #### As a security-minded developer I want to obviate all cross site scripting (XSS) attacks.
