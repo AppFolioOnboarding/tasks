@@ -1,5 +1,6 @@
 ---
 title: ES6 Configuration
+assignee: rmacklin
 ---
 
 #### As a developer I want to use the latest and greatest javascript features, including ES6 modules, in my application.
@@ -9,7 +10,7 @@ Acceptance criteria:
   syntax.
 - [ ] I have configured my production setup to support this transpilation.
 - [ ] A "hello world" ES6 module has been added to the application.
-- [ ] I know how to include javascript modules only on a given page, as 
+- [ ] I know how to include javascript modules only on a given page, as
   demonstrated by only including this "hello world" module on the images index.
 
 Discussion topics:

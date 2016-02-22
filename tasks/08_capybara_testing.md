@@ -1,5 +1,6 @@
 ---
 title: Capybara Testing
+assignee: rmacklin
 ---
 
 #### As a developer I want to use capybara to test complete flows in my application.

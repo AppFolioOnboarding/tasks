@@ -1,5 +1,6 @@
 ---
 title: Share Image
+assignee: rmacklin
 ---
 
 #### As a user I want to share an image with someone via email.
