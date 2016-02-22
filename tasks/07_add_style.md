@@ -1,5 +1,6 @@
 ---
 title: Add Style
+assignee: aaronpanch
 ---
 
 #### As a user I want to see a visually pleasing application.
@@ -14,7 +15,7 @@ Acceptance criteria:
 
 Reference material:
 - http://v4-alpha.getbootstrap.com/getting-started/introduction/
-- https://github.com/plataformatec/simple_form 
+- https://github.com/plataformatec/simple_form
 
 Dependencies:
 - Image Index

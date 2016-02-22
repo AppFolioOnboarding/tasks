@@ -1,5 +1,6 @@
 ---
 title: Image Seeds
+assignee: bboe
 ---
 
 #### As a developer I want at least 20 images to be created when I setup the database.

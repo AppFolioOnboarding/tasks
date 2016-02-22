@@ -1,5 +1,6 @@
 ---
 title: Image URL Validation
+assignee: bboe
 ---
 
 #### As a user I want to be prevented from submitting invalid image URLs.

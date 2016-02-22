@@ -1,5 +1,6 @@
 ---
 title: Tag Index
+assignee: ipmsteven
 ---
 
 #### As a user I want to see a list of tags and the number of images associated with each.
