@@ -1,5 +1,6 @@
 ---
 title: Required Tag Association
+assignee: ipmsteven
 ---
 
 #### As a user I want all images to have at least one tag.
