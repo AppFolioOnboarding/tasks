@@ -28,7 +28,7 @@ Acceptance criteria:
 
 
 Reference material:
-- https://www.owasp.org/index.php/Content_Security_Policy_Cheat_Sheeti
+- https://www.owasp.org/index.php/Content_Security_Policy_Cheat_Sheet
 
 Dependencies:
 - Image Index
