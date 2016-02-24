@@ -1,13 +1,14 @@
 #!/bin/bash
 
 read -rd '' REPOS << EOF
-appfolioonboarding/Boying_ImageUploader
-appfolioonboarding/Haomin_ImageUploader
-appfolioonboarding/Li_Image_Share
-appfolioonboarding/ss-vanity
-appfolioonboarding/vanilla
+appfolioonboarding/mjewell_image_sharer
 appfolioonboarding/paul_image_share
 appfolioonboarding/perkins_eidolon
+appfolioonboarding/Li_Image_Share
+appfolioonboarding/Boying_ImageUploader
+appfolioonboarding/Haomin_ImageUploader
+appfolioonboarding/ss-vanity
+appfolioonboarding/vanilla
 EOF
 
 FLAGS="-u"
