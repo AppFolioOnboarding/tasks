@@ -1,6 +1,6 @@
 ---
 title: Images by Tag
-assignee: weixing2014
+assignee: rmacklin
 ---
 
 #### As a user I want to view all images associated with a tag.

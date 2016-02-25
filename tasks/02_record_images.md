@@ -1,6 +1,6 @@
 ---
 title: Save Image Link
-assignee: weixing2014
+assignee: leoi11
 ---
 
 #### As a user I want to save a link to an image.
