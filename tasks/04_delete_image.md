@@ -1,6 +1,6 @@
 ---
 title: Delete Image
-assignee: ipmsteven
+assignee: rmacklin
 ---
 
 #### As a user I want to delete an image.
