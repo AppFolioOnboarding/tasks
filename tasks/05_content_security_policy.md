@@ -31,4 +31,4 @@ Reference material:
 - https://www.owasp.org/index.php/Content_Security_Policy_Cheat_Sheet
 
 Dependencies:
-- Image Index
+- Save Image Link
