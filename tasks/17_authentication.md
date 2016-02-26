@@ -7,8 +7,10 @@ assignee: bboe
 
 - [ ] Users can sign up.
 - [ ] Users can log in after they've signed up.
-- [ ] Users are remembered after logging in.
 - [ ] Users can log out after logging in.
+- [ ] Users can choose to be remembered after logging in.
+- [ ] Multiple browsers can concurrently hold permanent cookies.
+- [ ] Logged in users should not be able to register, nor login again.
 
 Discussion topics:
 - [ ] If we wanted to add more advanced features such as email activation and
