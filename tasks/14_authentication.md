@@ -23,4 +23,4 @@ Further reading:
 - https://github.com/plataformatec/devise
 
 Dependencies:
-- Capybara Testing
+- Delete Image
