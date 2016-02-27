@@ -19,6 +19,7 @@ digraph Dependencies {
   "Modify Tag List" [label="(16)\nModify Tag List"]
   "Authorization" [label="(17)\nAuthorization"]
   "Tag Index" [label="(18)\nTag Index"]
+  "Favorite Image" [label="(19)\nFavorite Image"]
 
   "Add Style" -> "Image Index"
   "Authentication" -> "Delete Image"
@@ -27,6 +28,7 @@ digraph Dependencies {
   "Content Security Policy" -> "Save Image Link"
   "Delete Image" -> "Image Index"
   "ES6 Configuration" -> "Image Index"
+  "Favorite Image" -> "Authorization"
   "Image Index" -> "Save Image Link"
   "Image Seeds" -> "Image Index"
   "Image Tags" -> "Image Index"
