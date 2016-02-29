@@ -1,6 +1,6 @@
 ---
 title: Authentication
-assignee: bboe
+assignee: d-ray
 ---
 
 #### As an application hoster I want to add user authentication to my application.
