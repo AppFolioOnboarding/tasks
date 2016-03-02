@@ -13,7 +13,9 @@ Acceptance criteria:
 - [ ] [CircleCI](https://circleci.com/) is used for Continuous Integration.
 - [ ] Heroku is used to deploy the code with puma as the application server.
 - [ ] The staging application automatically deploys whenever the master branch
-  is updated and passes all tests.
+  is updated.
+- [ ] The staging application automatically deploys only after all tests pass
+  on CircleCI.
 - [ ] Pull requests are automatically deployed as review applications.
 - [ ] The staging application deployment can be promoted to the production
   application deployment.
