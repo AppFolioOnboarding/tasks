@@ -1,6 +1,9 @@
 ---
 title: Add Style
 assignee: aaronpanch
+labels:
+- developer only
+- unstarted
 ---
 
 #### As a user I want to see a visually pleasing application.

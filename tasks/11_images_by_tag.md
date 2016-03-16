@@ -1,6 +1,7 @@
 ---
 title: Images by Tag
 assignee: bboe
+labels: unstarted
 ---
 
 #### As a user I want to view all images associated with a tag.

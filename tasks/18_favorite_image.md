@@ -1,6 +1,7 @@
 ---
 title: Favorite Image
 assignee: rmacklin
+labels: unstarted
 ---
 
 #### As a logged in user I want to favorite an image.
