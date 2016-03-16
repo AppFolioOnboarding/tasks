@@ -1,6 +1,7 @@
 ---
 title: Modify Tag List
 assignee: weixing2014
+labels: unstarted
 ---
 
 #### As a user I want to edit the tag list for an image.

@@ -1,6 +1,9 @@
 ---
 title: Capybara Testing
 assignee: rmacklin
+labels:
+- developer only
+- unstarted
 ---
 
 #### As a developer I want to use capybara to test complete flows in my application.

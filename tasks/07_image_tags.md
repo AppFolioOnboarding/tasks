@@ -1,6 +1,7 @@
 ---
 title: Image Tags
 assignee: shfung
+labels: unstarted
 ---
 
 #### As a user I want to add tags to images.

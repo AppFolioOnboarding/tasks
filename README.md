@@ -15,9 +15,11 @@ The frontmatter of a `task.md` file can contain the following attributes:
 * __assignee__: (optional) Assign or reassign the issue to the github username
   specified. Existing assignee will not be removed on sync if the field is not
   provided.
-* __label__: (optional) Set the labels of the issue to this comma-separated
-  string of issues. Existing labels will not be cleared on sync when the field
-  is not provided.
+* __labels__:(optional) When provided and the issue does not have any labels
+  this list of labels will be added to the issue. Labels will be dynamically
+  created with the default grey color if they don't already exist on the
+  repository. If you desire to reset the labels for each issue, run
+  ``sync_issues`` with the ``--reset-labels`` flag.
 
 
 ## Synchronizing Tasks

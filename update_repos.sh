@@ -20,4 +20,4 @@ if [ $# -eq 1 ]; then
     fi
 fi
 
-sync_issues tasks $FLAGS $REPOS
+sync_issues --labels labels.yml tasks $FLAGS $REPOS

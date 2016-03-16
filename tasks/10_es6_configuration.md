@@ -1,6 +1,7 @@
 ---
 title: ES6 Configuration
 assignee: rmacklin
+labels: unstarted
 ---
 
 #### As a developer I want to use the latest and greatest javascript features, including ES6 modules, in my application.
