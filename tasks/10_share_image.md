@@ -32,4 +32,4 @@ Reference material:
 - https://github.com/rails/jquery-ujs/wiki
 
 Dependencies:
-- ES6 configuration
+- Image Index

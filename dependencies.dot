@@ -9,23 +9,19 @@ digraph Dependencies {
   "Add Style" [label="(6)\nAdd Style"]
   "Image Tags" [label="(7)\nImage Tags"]
   "Delete Image" [label="(8)\nDelete Image"]
-  "Capybara Testing" [label="(9)\nCapybara Testing"]
-  "ES6 Configuration" [label="(10)\nES6 Configuration"]
-  "Images by Tag" [label="(11)\nImages by Tag"]
-  "Share Image" [label="(12)\nShare Image"]
-  "Authentication" [label="(13)\nAuthentication"]
-  "Required Tag Association" [label="(14)\nRequired Tag Association"]
-  "Modify Tag List" [label="(15)\nModify Tag List"]
-  "Authorization" [label="(16)\nAuthorization"]
-  "Tag Index" [label="(17)\nTag Index"]
-  "Favorite Image" [label="(18)\nFavorite Image"]
+  "Images by Tag" [label="(9)\nImages by Tag"]
+  "Share Image" [label="(10)\nShare Image"]
+  "Authentication" [label="(11)\nAuthentication"]
+  "Required Tag Association" [label="(12)\nRequired Tag Association"]
+  "Modify Tag List" [label="(13)\nModify Tag List"]
+  "Authorization" [label="(14)\nAuthorization"]
+  "Favorite Image" [label="(15)\nFavorite Image"]
+  "Tag Index" [label="(16)\nTag Index"]
 
   "Add Style" -> "Image Index"
   "Authentication" -> "Delete Image"
   "Authorization" -> "Authentication"
-  "Capybara Testing" -> "Delete Image"
   "Delete Image" -> "Image Index"
-  "ES6 Configuration" -> "Image Index"
   "Favorite Image" -> "Authorization"
   "Image Index" -> "Save Image Link"
   "Image Seeds" -> "Image Index"
@@ -35,6 +31,6 @@ digraph Dependencies {
   "Modify Tag List" -> "Image Tags"
   "Required Tag Association" -> "Image Tags"
   "Save Image Link" -> "Deployment Environment"
-  "Share Image" -> "ES6 Configuration"
+  "Share Image" -> "Image Index"
   "Tag Index" -> "Images by Tag"
 }
