@@ -1,9 +1,9 @@
 ---
 keep_existing: true
 labels:
-  developer only: eb6420
   in progress: bfe5bf
-  merged: "009800"
+  merged prior to review: "009800"
+  software engineer: eb6420
   unstarted: fef2c0
   waiting on developer: f7c6c7
   waiting on reviewer: fad8c7
