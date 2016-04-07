@@ -3,6 +3,7 @@ keep_existing: true
 labels:
   in progress: bfe5bf
   merged prior to review: "009800"
+  pull request: e6e6e6
   software engineer: eb6420
   unstarted: fef2c0
   waiting on developer: f7c6c7
