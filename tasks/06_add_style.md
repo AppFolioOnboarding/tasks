@@ -2,7 +2,7 @@
 title: Add Style
 assignee: aaronpanch
 labels:
-- developer only
+- software engineer
 - unstarted
 ---
 
