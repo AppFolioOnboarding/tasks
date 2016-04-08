@@ -10,6 +10,10 @@ Acceptance criteria:
 - [ ] There is a link to share an image.
 - [ ] After clicking on this link, a bootstrap modal appears with a form to
   send the email.
+- [ ] The form has fields for the recipient's email and an optional message.
+- [ ] The email we send has an HTML part and a text part.
+- [ ] The email contains the image, the custom message if provided, and a link
+  inviting the recipient to check out our application.
 - [ ] The modal closes and a success message is shown if the email was sent
   successfully.
 - [ ] The user is alerted of errors if the operation was unsuccessful.
