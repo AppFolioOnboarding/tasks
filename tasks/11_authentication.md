@@ -13,6 +13,8 @@ labels: unstarted
 - [ ] Multiple browsers can concurrently hold permanent cookies.
 - [ ] Logged in users should not be able to register, nor log in again.
 
+__Note__: Do not use Devise for this task.
+
 Discussion topics:
 - [ ] If we wanted to add more advanced features such as email activation and
   "forgot my password", should we continue to "roll our own" authentication?
