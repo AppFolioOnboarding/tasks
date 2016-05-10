@@ -26,7 +26,6 @@ Acceptance criteria:
 
 Discussion Topics:
 - [ ] Where can we discover how long it takes to return an HTTP response?
-- [ ] Why shouldn't WEBrick be used as the application server?
 - [ ] When should we commit our code?
 
 References:
