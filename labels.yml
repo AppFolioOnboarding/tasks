@@ -1,5 +1,5 @@
 ---
-keep_existing: true
+keep_existing: false
 labels:
   in progress: bfe5bf
   merged prior to review: "009800"
