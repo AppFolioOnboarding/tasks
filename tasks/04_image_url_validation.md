@@ -1,6 +1,6 @@
 ---
 title: Image URL Validation
-assignee: bboe
+assignee: XanderStrike
 labels: unstarted
 ---
 

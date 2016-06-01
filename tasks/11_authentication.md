@@ -1,6 +1,6 @@
 ---
 title: Authentication
-assignee: d-ray
+assignee: bboe
 labels: unstarted
 ---
 

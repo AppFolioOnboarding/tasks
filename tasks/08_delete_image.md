@@ -1,6 +1,6 @@
 ---
 title: Delete Image
-assignee: bboe
+assignee: D-D-M
 labels: unstarted
 ---
 
