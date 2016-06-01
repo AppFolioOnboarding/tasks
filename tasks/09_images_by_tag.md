@@ -1,6 +1,6 @@
 ---
 title: Images by Tag
-assignee: bboe
+assignee: Santhanaraman
 labels: unstarted
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Required Tag Association
-assignee: bboe
+assignee: pololee
 labels: unstarted
 ---
 
