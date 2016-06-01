@@ -1,7 +1,7 @@
 #!/bin/bash
 
 read -rd '' REPOS << EOF
-appfolioonboarding/kenny
+appfolioonboarding/jingyu
 appfolioonboarding/image-sharer-xin
 appfolioonboarding/image-sharer-wilsonyqm
 appfolioonboarding/image-sharer-blakeherrington
