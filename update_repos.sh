@@ -1,20 +1,16 @@
 #!/bin/bash
 
-read -rd '' REPOS << EOF
-appfolioonboarding/jingyu
-appfolioonboarding/image-sharer-xin
-appfolioonboarding/image-sharer-wilsonyqm
-appfolioonboarding/image-sharer-blakeherrington
-appfolioonboarding/image-sharer-conproctor
-appfolioonboarding/vanilla
-EOF
-
-FLAGS="-u"
+FILE=lists/fulltime.txt
+FLAGS=""
 
 if [ $# -eq 1 ]; then
-    if [ "$1" == "--create" ]; then
-        FLAGS=""
+    if [ "$1" == "interns" ]; then
+        FLAGS="--no-assignees"
+        FILE=lists/interns.txt
+    else
+        echo "Invalid argument '$1'"
+        exit 1
     fi
 fi
 
-sync_issues --labels labels.yml tasks $FLAGS $REPOS
+cat $FILE | xargs sync_issues --labels labels.yml tasks $FLAGS
