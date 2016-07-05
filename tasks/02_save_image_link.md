@@ -9,6 +9,7 @@ labels: unstarted
 Acceptance criteria:
 - [ ] The link is entered through a form.
 - [ ] After the form is saved, the link is persisted in the database.
+- [ ] After the form is submitted, the user is redirected to a page displaying the image.
 
 Dependencies:
 - Deployment Environment
