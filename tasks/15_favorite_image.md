@@ -17,6 +17,11 @@ Acceptance criteria:
   the image.
 - [ ] Favoriting/unfavoriting is done via AJAX.
 
+__Note__: Do not use an external gem to implement favoriting. You already have
+experience using gem-backed models from acts_as_taggable_on, and since there
+won't always be a gem to rely on, we want you to get experience implementing
+more advanced models and relations on your own.
+
 Discussion topics:
 - [ ] What can we do to cache the favorites count?
 - [ ] How can we make our images relation for the index page include whether
