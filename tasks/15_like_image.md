@@ -1,31 +1,31 @@
 ---
 title: Favorite Image
+new_title: Like Image
 assignee: rmacklin
 labels: unstarted
 ---
 
-#### As a logged in user I want to favorite an image.
+#### As a logged in user I want to like an image.
 
 Acceptance criteria:
-- [ ] Each image on the index page has a "favorite" button.
-- [ ] The button indicates how many users have favorited that image.
-- [ ] When you favorite an image the button state changes to a "favorited"
-  state.
-- [ ] When you favorite an image the count of users who have favorited that
-  image is updated.
-- [ ] If you have already favorited an image, clicking the button "unfavorites"
-  the image.
-- [ ] Favoriting/unfavoriting is done via AJAX.
+- [ ] Each image on the index page has a "like" button.
+- [ ] The button indicates how many users have liked that image.
+- [ ] When you like an image the button state changes to a "liked" state.
+- [ ] When you like an image the count of users who have liked that image is
+  updated.
+- [ ] If you have already liked an image, clicking the button "unlikes" the
+  image.
+- [ ] Liking/unliking is done via AJAX.
 
-__Note__: Do not use an external gem to implement favoriting. You already have
+__Note__: Do not use an external gem to implement liking. You already have
 experience using gem-backed models from acts_as_taggable_on, and since there
 won't always be a gem to rely on, we want you to get experience implementing
 more advanced models and relations on your own.
 
 Discussion topics:
-- [ ] What can we do to cache the favorites count?
+- [ ] What can we do to cache the likes count?
 - [ ] How can we make our images relation for the index page include whether
-  the image was favorited by the current user?
+  the image was liked by the current user?
 - [ ] How can we develop the front end and back end separately?
 - [ ] How can we reuse templates on the server and client?
 - [ ] What are the different types of errors we should handle?
