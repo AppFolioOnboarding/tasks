@@ -1,6 +1,5 @@
 ---
-title: Favorite Image
-new_title: Like Image
+title: Like Image
 assignee: rmacklin
 labels: unstarted
 ---
