@@ -9,7 +9,7 @@ labels: unstarted
 Acceptance criteria:
 - [ ] When I add a new image, there is a form field to add tags.
 - [ ] After I've saved an image with tags, I see those tags displayed with the
-  associated image on the index page.
+  associated image.
 - [ ] My application uses the acts-as-taggable-on gem to provide the tagging
   functionality.
 
