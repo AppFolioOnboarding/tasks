@@ -18,6 +18,12 @@ Acceptance criteria:
   successfully.
 - [ ] The user is alerted of errors if the operation was unsuccessful.
 
+__Note__: This story is large, so it makes sense to break the implementation
+down into more manageable pieces (a la elephant carpaccio). Please start by
+implementing a basic sharing feature that uses a new page (not a modal), and
+open a PR for that. Then, once we've verified the simplified version is
+working, refactor it to use a modal, and open a second PR for that.
+
 Discussion topics:
 - [ ] How could we develop the front end and back end separately? (And why
   might that be a good idea?)
