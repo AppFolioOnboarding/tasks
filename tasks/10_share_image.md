@@ -40,6 +40,7 @@ Reference material:
 - https://devcenter.heroku.com/articles/sendgrid#ruby-rails
 - https://github.com/rails/jquery-ujs/wiki
 - http://v4-alpha.getbootstrap.com/components/modal
+- https://sites.google.com/a/appfolio.com/eng/new-hire-resources/engineering-academy/ropes/image-sharing-project/basics-of-bootstrap-modals-js-and-ajax
 
 Dependencies:
 - Image Index
