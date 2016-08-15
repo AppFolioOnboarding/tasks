@@ -29,11 +29,11 @@ Discussion topics:
 - [ ] What are the implications of allowing users to send emails from our app?
 
 Reference material:
-- http://v4-alpha.getbootstrap.com/components/modal
 - http://guides.rubyonrails.org/action_mailer_basics.html
 - https://elements.heroku.com/addons/sendgrid
 - https://devcenter.heroku.com/articles/sendgrid#ruby-rails
 - https://github.com/rails/jquery-ujs/wiki
+- http://v4-alpha.getbootstrap.com/components/modal
 
 Dependencies:
 - Image Index
