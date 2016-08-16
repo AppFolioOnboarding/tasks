@@ -9,9 +9,13 @@ labels: unstarted
 - [ ] Users can sign up.
 - [ ] Users can log in after they've signed up.
 - [ ] Users can log out after logging in.
-- [ ] Users can choose to be remembered after logging in.
-- [ ] Multiple browsers can concurrently hold permanent cookies.
+- [ ] Users can choose to be remembered after logging in.<sup>†</sup>
+- [ ] Multiple browsers can concurrently hold permanent cookies for the same
+  user.
 - [ ] Logged in users should not be able to register, nor log in again.
+
+<sup>†</sup>: "Remembering" means that users will remain logged into the site
+even after completely closing their web browser.
 
 __Note__: Do not use Devise for this task.
 
