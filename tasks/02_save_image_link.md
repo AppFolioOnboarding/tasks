@@ -6,12 +6,13 @@ labels: unstarted
 
 #### As a user I want to save a link to an image.
 
-Acceptance criteria:
+__Acceptance criteria__:
 - [ ] The link is entered through a form.
 - [ ] After the form is saved, the link is persisted in the database.
-- [ ] After the form is submitted, the user is redirected to a page displaying the image.
+- [ ] After the form is submitted, the user is redirected to a page displaying
+  the image.
 
-Dependencies:
+__Dependencies__:
 - Deployment Environment
 
 __Note__: Many image sharing sites will permit one to upload images, or

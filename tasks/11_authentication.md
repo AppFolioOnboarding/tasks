@@ -15,15 +15,15 @@ labels: unstarted
 
 __Note__: Do not use Devise for this task.
 
-Discussion topics:
+__Discussion topics__:
 - [ ] If we wanted to add more advanced features such as email activation and
   "forgot my password", should we continue to "roll our own" authentication?
 
-Reference material:
+__Reference material__:
 - https://www.railstutorial.org/book/log_in_log_out
 
-Further reading:
+__Further reading__:
 - https://github.com/plataformatec/devise
 
-Dependencies:
+__Dependencies__:
 - Delete Image

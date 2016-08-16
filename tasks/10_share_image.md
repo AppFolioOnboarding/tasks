@@ -6,7 +6,7 @@ labels: unstarted
 
 #### As a user I want to share an image with someone via email.
 
-Acceptance criteria:
+__Acceptance criteria__:
 - [ ] There is a link to share an image.
 - [ ] After clicking on this link, a bootstrap modal appears with a form to
   send the email.
@@ -24,7 +24,7 @@ implementing a basic sharing feature that uses a new page (not a modal), and
 open a PR for that. Then, once we've verified the simplified version is
 working, refactor it to use a modal, and open a second PR for that.
 
-Discussion topics:
+__Discussion topics__:
 - [ ] How could we develop the front end and back end separately? (And why
   might that be a good idea?)
 - [ ] How should we implement a non-CRUD action?
@@ -34,13 +34,14 @@ Discussion topics:
 - [ ] How could we show a preview of the image being shared in the modal?
 - [ ] What are the implications of allowing users to send emails from our app?
 
-Reference material:
+__Reference material__:
 - http://guides.rubyonrails.org/action_mailer_basics.html
 - https://elements.heroku.com/addons/sendgrid
 - https://devcenter.heroku.com/articles/sendgrid#ruby-rails
 - https://github.com/rails/jquery-ujs/wiki
 - http://v4-alpha.getbootstrap.com/components/modal
 - https://sites.google.com/a/appfolio.com/eng/new-hire-resources/engineering-academy/ropes/image-sharing-project/basics-of-bootstrap-modals-js-and-ajax
+- http://v4-alpha.getbootstrap.com/components/modal
 
-Dependencies:
+__Dependencies__:
 - Image Index
