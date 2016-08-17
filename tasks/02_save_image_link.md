@@ -27,6 +27,7 @@ might make sense to combine two, sometimes more, tiny and related features into
 a single story.
 
 __Acceptance criteria__:
+- [ ] The landing page links to the image link submission form.
 - [ ] The link is entered through a form.
 - [ ] After the form is saved, the link is persisted in the database.
 - [ ] After the form is submitted, the user is redirected to a page displaying
