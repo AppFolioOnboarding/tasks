@@ -11,6 +11,7 @@ __Acceptance criteria__:
 - [ ] These images are persisted if the browser is closed or even if the
   server is restarted.
 - [ ] Images are not displayed wider than 400px.
+- [ ] Newest images appear first.
 
 __Dependencies__:
 - Save Image Link
