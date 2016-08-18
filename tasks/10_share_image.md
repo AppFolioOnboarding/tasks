@@ -22,7 +22,11 @@ __Note__: This story is large, so it makes sense to break the implementation
 down into more manageable pieces (a la elephant carpaccio). Please start by
 implementing a basic sharing feature that uses a new page (not a modal), and
 open a PR for that. Then, once we've verified the simplified version is
-working, refactor it to use a modal, and open a second PR for that.
+working, refactor it to use a modal, and open a second PR for that. The
+[video](https://sites.google.com/a/appfolio.com/eng/new-hire-resources/engineering-academy/ropes/image-sharing-project/basics-of-bootstrap-modals-js-and-ajax)
+provides some background and code examples that will be really helpful for the
+second PR, so it's worth watching (and following along) before you begin that
+part.
 
 __Discussion topics__:
 - [ ] How could we develop the front end and back end separately? (And why
