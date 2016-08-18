@@ -41,7 +41,6 @@ __Reference material__:
 - https://github.com/rails/jquery-ujs/wiki
 - http://v4-alpha.getbootstrap.com/components/modal
 - https://sites.google.com/a/appfolio.com/eng/new-hire-resources/engineering-academy/ropes/image-sharing-project/basics-of-bootstrap-modals-js-and-ajax
-- http://v4-alpha.getbootstrap.com/components/modal
 
 __Dependencies__:
 - Image Index
