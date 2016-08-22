@@ -13,4 +13,4 @@ if [ $# -eq 1 ]; then
     fi
 fi
 
-cat $FILE | xargs sync_issues --labels labels.yml tasks $FLAGS
+awk '{print "AppFolioOnboarding/" $0}' $FILE | xargs sync_issues --labels labels.yml tasks $FLAGS
