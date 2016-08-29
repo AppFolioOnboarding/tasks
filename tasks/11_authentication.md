@@ -6,6 +6,19 @@ labels: unstarted
 
 #### As an application hoster I want to add user authentication to my application.
 
+__Story__:
+
+We have done a great job providing immediate value to our customers. At this
+point they can both add and delete images, in addition to a few other features
+that are either completed or in the works. Along with a growth in our web
+service's popularity have come an increase in number of reports of missing
+images. Upon investigation, it turns out that the majority of delete requests
+are issued by only a handful of IP addresses. While we could blacklist those IP
+addresses from the delete operation, it has always been our plan to only permit
+the user who added an image to delete that image. To begin that effort we must
+first add the concept of a user.
+
+__Acceptance criteria__:
 - [ ] Users can sign up.
 - [ ] Users can log in after they've signed up.
 - [ ] Users can log out after logging in.

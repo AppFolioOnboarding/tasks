@@ -8,6 +8,14 @@ labels:
 
 #### As a user I want to see a visually pleasing application.
 
+__Story__:
+
+Our web application is really starting taking shape. We have added a few
+features that provide value to our customers, but some of our customers are
+complaining that the website is a quite bland. It is time to spice it up by
+applying a visually appealing, and easy to maintain user interface to our web
+application.
+
 __Acceptance criteria__:
 - [ ] The application has a header with navigation
 - [ ] Images are displayed in an aesthetically pleasing list of cards

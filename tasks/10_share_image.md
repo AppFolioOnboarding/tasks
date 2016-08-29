@@ -6,6 +6,15 @@ labels: unstarted
 
 #### As a user I want to share an image with someone via email.
 
+__Story__:
+
+This application is called Image Sharer. Sure, you can share images by adding
+them to our web service, but how will people who do not know about this web
+service be able to see those images? In phone calls with our customers we have
+discovered that many of our users are manually emailing their friends links to
+the images. That is awesome! We can make things more efficent for our users by
+directly supporting sharing images through email.
+
 __Acceptance criteria__:
 - [ ] There is a link to share an image.
 - [ ] After clicking on this link, a bootstrap modal appears with a form to
