@@ -6,6 +6,12 @@ labels: unstarted
 
 #### As a logged in user I want to like an image.
 
+__Story__:
+
+What modern web service is complete without the ability to "like" something?
+Well, many, but this is an image sharing site and our users demand to know how
+many people have liked their image. Let's provide it to them!
+
 __Acceptance criteria__:
 - [ ] Each image on the index page has a "like" button.
 - [ ] The button indicates how many users have liked that image.
