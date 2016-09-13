@@ -16,7 +16,6 @@ digraph Dependencies {
   "Modify Tag List" [label="(13)\nModify Tag List"]
   "Authorization" [label="(14)\nAuthorization"]
   "Favorite Image" [label="(15)\nFavorite Image"]
-  "Tag Index" [label="(16)\nTag Index"]
 
   "Add Style" -> "Image Index"
   "Authentication" -> "Delete Image"
@@ -32,5 +31,4 @@ digraph Dependencies {
   "Required Tag Association" -> "Image Tags"
   "Save Image Link" -> "Deployment Environment"
   "Share Image" -> "Image Index"
-  "Tag Index" -> "Images by Tag"
 }
