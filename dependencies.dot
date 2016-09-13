@@ -10,6 +10,7 @@ digraph Dependencies {
   "Image Tags" [label="(7)\nImage Tags"]
   "Delete Image" [label="(8)\nDelete Image"]
   "Images by Tag" [label="(9)\nImages by Tag"]
+  "Refactor Flow Tests" [label="(16)\nRefactor Flow Tests"]
   "Share Image" [label="(10)\nShare Image"]
   "Authentication" [label="(11)\nAuthentication"]
   "Required Tag Association" [label="(12)\nRequired Tag Association"]
@@ -28,6 +29,8 @@ digraph Dependencies {
   "Image URL Validation" -> "Save Image Link"
   "Images by Tag" -> "Image Tags"
   "Modify Tag List" -> "Image Tags"
+  "Refactor Flow Tests" -> "Delete Image"
+  "Refactor Flow Tests" -> "Images by Tag"
   "Required Tag Association" -> "Image Tags"
   "Save Image Link" -> "Deployment Environment"
   "Share Image" -> "Image Index"
