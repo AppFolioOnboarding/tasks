@@ -15,13 +15,13 @@ digraph Dependencies {
   "Required Tag Association" [label="(12)\nRequired Tag Association"]
   "Modify Tag List" [label="(13)\nModify Tag List"]
   "Authorization" [label="(14)\nAuthorization"]
-  "Favorite Image" [label="(15)\nFavorite Image"]
+  "Like Image" [label="(15)\nLike Image"]
 
   "Add Style" -> "Image Index"
   "Authentication" -> "Delete Image"
   "Authorization" -> "Authentication"
   "Delete Image" -> "Image Index"
-  "Favorite Image" -> "Authorization"
+  "Like Image" -> "Authorization"
   "Image Index" -> "Save Image Link"
   "Image Seeds" -> "Image Index"
   "Image Tags" -> "Image Index"
