@@ -10,13 +10,13 @@ digraph Dependencies {
   "Image Tags" [label="(7)\nImage Tags"]
   "Delete Image" [label="(8)\nDelete Image"]
   "Images by Tag" [label="(9)\nImages by Tag"]
-  "Refactor Flow Tests" [label="(16)\nRefactor Flow Tests"]
-  "Share Image" [label="(10)\nShare Image"]
-  "Authentication" [label="(11)\nAuthentication"]
-  "Required Tag Association" [label="(12)\nRequired Tag Association"]
-  "Modify Tag List" [label="(13)\nModify Tag List"]
-  "Authorization" [label="(14)\nAuthorization"]
-  "Like Image" [label="(15)\nLike Image"]
+  "Refactor Flow Tests" [label="(10)\nRefactor Flow Tests"]
+  "Share Image" [label="(11)\nShare Image"]
+  "Authentication" [label="(12)\nAuthentication"]
+  "Required Tag Association" [label="(13)\nRequired Tag Association"]
+  "Modify Tag List" [label="(14)\nModify Tag List"]
+  "Authorization" [label="(15)\nAuthorization"]
+  "Like Image" [label="(16)\nLike Image"]
 
   "Add Style" -> "Image Index"
   "Authentication" -> "Delete Image"
