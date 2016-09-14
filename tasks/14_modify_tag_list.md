@@ -26,3 +26,4 @@ __Discussion__:
 
 __Dependencies__:
 - Image Tags
+- Refactor flow tests to use page objects

@@ -44,3 +44,4 @@ __Further reading__:
 
 __Dependencies__:
 - Delete Image
+- Refactor flow tests to use page objects
