@@ -57,3 +57,4 @@ __Reference material__:
 
 __Dependencies__:
 - Image Index
+- Refactor flow tests to use page objects
