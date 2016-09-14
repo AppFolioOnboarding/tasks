@@ -27,7 +27,7 @@ branch whenever you push a modification to it on GitHub.
 Finally, you have a complete deployment pipeline set up on Heroku. With this
 pipeline, there are three steps used for testing your application. Review
 applications are automatically created whenever you make a pull request. There
-can as many review applications as you have open pull requests. This step
+can be as many review applications as you have open pull requests. This step
 enables you to perform quality assurance (QA) tests while you are developing a
 feature. The second step, staging, is used to ensure no bugs are introduced as
 the result of a feature branch merge into master. The staging server is as
