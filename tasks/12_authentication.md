@@ -37,7 +37,9 @@ __Discussion topics__:
   "forgot my password", should we continue to "roll our own" authentication?
 
 __Reference material__:
-- https://www.railstutorial.org/book/log_in_log_out
+- https://www.railstutorial.org/book/sign_up
+- https://www.railstutorial.org/book/basic_login
+- https://www.railstutorial.org/book/advanced_login
 
 __Further reading__:
 - https://github.com/plataformatec/devise
