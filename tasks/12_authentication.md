@@ -37,6 +37,7 @@ __Discussion topics__:
   "forgot my password", should we continue to "roll our own" authentication?
 
 __Reference material__:
+- https://www.railstutorial.org/book/modeling_users
 - https://www.railstutorial.org/book/sign_up
 - https://www.railstutorial.org/book/basic_login
 - https://www.railstutorial.org/book/advanced_login
