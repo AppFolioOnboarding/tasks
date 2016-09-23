@@ -36,7 +36,7 @@ __Discussion topics__:
 - [ ] What are the different types of errors we should handle?
 
 __Reference material__:
-- http://guides.rubyonrails.org/association_basics.html#counter-cache
+- http://guides.rubyonrails.org/association_basics.html#options-for-belongs-to-counter-cache
 - http://guides.rubyonrails.org/active_record_querying.html#scopes
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template
 
