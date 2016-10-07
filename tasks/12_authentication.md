@@ -22,7 +22,8 @@ __Acceptance criteria__:
 - [ ] Users can sign up.
 - [ ] Users can log in after they've signed up.
 - [ ] Users can log out after logging in.
-- [ ] Users can choose to be remembered after logging in.<sup>†</sup>
+- [ ] Users can choose to be remembered as part of the login
+  process.<sup>†</sup>
 - [ ] Multiple browsers can concurrently hold permanent cookies for the same
   user.
 - [ ] Logged in users should not be able to register, nor log in again.
