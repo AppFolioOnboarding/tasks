@@ -50,7 +50,7 @@ __Discussion topics__:
 __Reference material__:
 - http://guides.rubyonrails.org/action_mailer_basics.html
 - https://elements.heroku.com/addons/sendgrid
-- https://devcenter.heroku.com/articles/sendgrid#ruby-rails
+- https://sendgrid.com/docs/Integrate/Frameworks/rubyonrails.html
 - https://github.com/rails/jquery-ujs/wiki
 - http://v4-alpha.getbootstrap.com/components/modal
 - https://sites.google.com/a/appfolio.com/eng/new-hire-resources/engineering-academy/ropes/image-sharing-project/basics-of-bootstrap-modals-js-and-ajax
