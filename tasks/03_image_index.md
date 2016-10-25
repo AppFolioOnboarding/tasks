@@ -1,6 +1,6 @@
 ---
 title: Image Index
-assignee: aaronpanch
+assignee: conproctor
 labels: unstarted
 ---
 
