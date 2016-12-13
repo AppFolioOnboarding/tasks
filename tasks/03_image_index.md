@@ -1,6 +1,6 @@
 ---
 title: Image Index
-assignee: conproctor
+assignee: connorproctor
 labels: unstarted
 ---
 
