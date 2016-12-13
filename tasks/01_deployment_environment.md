@@ -76,7 +76,7 @@ __Acceptance criteria__:
   on CircleCI.
 - [ ] The staging application deployment can be promoted to the production
   application deployment.
-- [ ] [Pronto](https://github.com/mmozuras/pronto) is used to help with code
+- [ ] [Rubocop](https://github.com/bbatsov/rubocop) is used to help with code
   style consistency.
 
 __Discussion Topics__:
