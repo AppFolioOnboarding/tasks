@@ -1,10 +1,12 @@
 ---
 title: Share Image
-assignee: rmacklin
+assignee: HaominZhang
 labels: unstarted
 ---
 
 #### As a user I want to share an image with someone via email.
+
+_Assignees_: @HaominZhang, @kkajla12, @lsq921224
 
 __Story__:
 
