@@ -6,6 +6,8 @@ labels: unstarted
 
 #### As a developer I want my flow tests to be written using the object-oriented [page object pattern](http://martinfowler.com/bliki/PageObject.html).
 
+_Assignees_: @kkajla12, @lsq921224, @ragurney
+
 __Story__:
 
 Now that we have gotten some experience writing flow tests with Capybara,
