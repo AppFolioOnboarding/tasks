@@ -29,6 +29,8 @@ __Acceptance criteria PR2__:
 - [ ] Users can log out after logging in.
 - [ ] Logged in users should not be able to register, nor log in again.
 
+Reviewer: grahamotte
+
 __Acceptance criteria PR3__:
 - [ ] Users can choose to be remembered as part of the login
   process.<sup>†</sup>
