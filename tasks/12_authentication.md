@@ -24,6 +24,8 @@ depend on the preceding ones.
 __Acceptance criteria PR1__:
 - [ ] Users can sign up.
 
+Reviewer: ozhe
+
 __Acceptance criteria PR2__:
 - [ ] Users can log in after they've signed up.
 - [ ] Users can log out after logging in.
