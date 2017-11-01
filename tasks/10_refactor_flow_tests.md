@@ -42,6 +42,19 @@ and also take a look at the ae_page_objects readme which will be an extremely
 helpful resource as you learn to write page objects. Both are linked in the
 reference material below.
 
+*Important note:* As of November 2016, a specific older Firefox version, 47.0.1,
+is required to work properly with AePageObjects, Capybara, and Selenium. This 
+version comes on AppFolio developer laptop images by default, but if you've used
+Firefox, it may have updated to a newer version that won't work, and you'll need
+to replace it (or install it side-by-side) with 47.0.1 version from here:
+
+- https://ftp.mozilla.org/pub/firefox/releases/47.0.1/mac/en-US/
+
+Problems that you may see with newer Firefox versions may include failing
+to open a Firefox window for testing; open a Firefox window but failing to load
+any pages into it; or other strange issues such as pages loading, but failing to 
+open browser modal alert/confirm dialogs.
+
 __Acceptance criteria__:
 - [ ] The flow tests have been refactored to use page objects.
 
