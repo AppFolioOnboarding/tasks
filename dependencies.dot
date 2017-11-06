@@ -8,10 +8,9 @@ digraph Dependencies {
   "Image Tags" [label="(5)\nImage Tags"]
   "Delete Image" [label="(6)\nDelete Image"]
   "Images by Tag" [label="(7)\nImages by Tag"]
-  "Refactor Flow Tests" [label="(8)\nRefactor Flow Tests"]
-  "Share Image" [label="(9)\nShare Image"]
-  "Required Tag Association" [label="(10)\nRequired Tag Association"]
-  "Modify Tag List" [label="(11)\nModify Tag List"]
+  "Share Image" [label="(8)\nShare Image"]
+  "Required Tag Association" [label="(9)\nRequired Tag Association"]
+  "Modify Tag List" [label="(10)\nModify Tag List"]
 
   "Add Style" -> "Image Index"
   "Delete Image" -> "Image Index"
@@ -19,12 +18,7 @@ digraph Dependencies {
   "Image Tags" -> "Image Index"
   "Images by Tag" -> "Image Tags"
   "Modify Tag List" -> "Image Tags"
-  "Modify Tag List" -> "Refactor Flow Tests" [style=dashed]
-  "Refactor Flow Tests" -> "Delete Image"
-  "Refactor Flow Tests" -> "Images by Tag"
   "Required Tag Association" -> "Image Tags"
-  "Required Tag Association" -> "Refactor Flow Tests" [style=dashed]
   "Save Image Link" -> "Deployment Environment"
   "Share Image" -> "Image Index"
-  "Share Image" -> "Refactor Flow Tests" [style=dashed]
 }
