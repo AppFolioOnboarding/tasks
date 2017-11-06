@@ -4,17 +4,19 @@ digraph Dependencies {
   "Deployment Environment" [label="(1)\nDeployment Environment"]
   "Save Image Link" [label="(2)\nSave Image Link"]
   "Image Index" [label="(3)\nImage Index"]
-  "Add Style" [label="(4)\nAdd Style"]
-  "Image Tags" [label="(5)\nImage Tags"]
-  "Delete Image" [label="(6)\nDelete Image"]
-  "Images by Tag" [label="(7)\nImages by Tag"]
-  "Share Image" [label="(8)\nShare Image"]
-  "Required Tag Association" [label="(9)\nRequired Tag Association"]
-  "Modify Tag List" [label="(10)\nModify Tag List"]
+  "Image Seeds" [label="(4)\nImage Seeds"]
+  "Add Style" [label="(5)\nAdd Style"]
+  "Image Tags" [label="(6)\nImage Tags"]
+  "Delete Image" [label="(7)\nDelete Image"]
+  "Images by Tag" [label="(8)\nImages by Tag"]
+  "Share Image" [label="(9)\nShare Image"]
+  "Required Tag Association" [label="(10)\nRequired Tag Association"]
+  "Modify Tag List" [label="(11)\nModify Tag List"]
 
   "Add Style" -> "Image Index"
   "Delete Image" -> "Image Index"
   "Image Index" -> "Save Image Link"
+  "Image Seeds" -> "Image Index"
   "Image Tags" -> "Image Index"
   "Images by Tag" -> "Image Tags"
   "Modify Tag List" -> "Image Tags"
