@@ -6,6 +6,8 @@ labels: unstarted
 
 #### As a user I want to save a link to an image.
 
+_Assignees_: @HaominZhang, @XanderStrike
+
 __Story__:
 
 Now that we have an awesome landing page for our users to experience it is time
@@ -32,6 +34,12 @@ __Acceptance criteria__:
 - [ ] After the form is saved, the link is persisted in the database.
 - [ ] After the form is submitted, the user is redirected to a page displaying
   the image.
+- [ ] I cannot successfully save an image with an invalid URL.
+- [ ] An error message is associated with the appropriate input field on
+  failure.
+
+__Discussion Topic__:
+- [ ] What is a valid image URL?
 
 __Dependencies__:
 - Deployment Environment
