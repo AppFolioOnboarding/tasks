@@ -9,12 +9,31 @@ labels: unstarted
 _Assignees_: @D-D-M, @lsq921224, @ragurney
 
 __Story__:
-
 Our users are awesome at adding images to our web service. Some of our users
 add dozens in a single session. Occasionally, however, some users add the wrong
 image, and would like a way to remove those images. Please provide our users
 with the ability to delete images. Note that at this point we trust our users
 not to abuse this feature and delete more images than they should.
+
+__Acceptance criteria__:
+- [ ] The user is prompted for confirmation prior to deletion. (Use javascript
+  confirm() dialog)
+- [ ] Deleted images are removed from the homepage.
+- [ ] A flow test using page objects exists for the flow to create and
+  subsequently delete an image.
+
+__Dependencies__:
+- Image Index
+
+__Discussion topics__:
+- [ ] What makes a good page object interface?
+
+__Reference material__:
+- https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm
+- https://github.com/appfolio/ae_page_objects
+- http://martinfowler.com/bliki/PageObject.html
+- https://sites.google.com/a/appfolio.com/eng/new-hire-resources/engineering-academy/ropes/image-sharing-project/flow-tests-with-page-objects
+- https://github.com/SeleniumHQ/selenium/wiki/Ruby-Bindings#javascript-dialogs
 
 __Flow Test Info__:
 
@@ -46,11 +65,13 @@ migrate any other tests that were in your file to the page object style before
 deleting your old test file.
 
 Finally, there is a video to help you get started. You should watch this video
-and also take a look at the ae_page_objects readme which will be an extremely
-helpful resource as you learn to write page objects. Both are linked in the
+and also take a look at the [ae_page_objects readme](https://github.com/appfolio/ae_page_objects)
+which will be an extremely helpful resource as you learn to write page objects. Both are linked in the
 reference material below.
 
-*Important note:* As of November 2016, a specific older Firefox version,
+__Important Notes__:
+
+As of November 2016, a specific older Firefox version,
 47.0.1, is required to work properly with AePageObjects, Capybara, and
 Selenium. This version comes on AppFolio developer laptop images by default,
 but if you've used Firefox, it may have updated to a newer version that won't
@@ -59,25 +80,10 @@ version from here:
 
 - https://ftp.mozilla.org/pub/firefox/releases/47.0.1/mac/en-US/
 
-Problems that you may see with newer Firefox versions may include failing to
-open a Firefox window for testing; open a Firefox window but failing to load
-any pages into it; or other strange issues such as pages loading, but failing
-to open browser modal alert/confirm dialogs.
+Problems that you may see with newer Firefox versions may include
+ - failing to open a Firefox window for testing
+ - open a Firefox window but failing to load any pages into it
+ - other strange issues such as pages loading, but failing to open browser modal alert/confirm dialogs.
 
-
-__Acceptance criteria__:
-- [ ] The user is prompted for confirmation prior to deletion.
-- [ ] Deleted images are removed from the homepage.
-- [ ] A flow test using page objects exists for the flow to create and
-  subsequently delete an image.
-
-__Dependencies__:
-- Image Index
-
-__Discussion topics__:
-- [ ] What makes a good page object interface?
-
-__Reference material__:
-- https://github.com/appfolio/ae_page_objects
-- http://martinfowler.com/bliki/PageObject.html
-- https://sites.google.com/a/appfolio.com/eng/new-hire-resources/engineering-academy/ropes/image-sharing-project/flow-tests-with-page-objects
+When dealing with javascript confirm() dialog in the flow test, this [reference](https://github.com/SeleniumHQ/selenium/wiki/Ruby-Bindings#javascript-dialogs)
+will be helpful.
