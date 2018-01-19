@@ -7,14 +7,14 @@ digraph Dependencies {
   "Image Seeds" [label="(4)\nImage Seeds"]
   "Add Style" [label="(5)\nAdd Style"]
   "Image Tags" [label="(6)\nImage Tags"]
-  "Delete Image" [label="(7)\nDelete Image"]
-  "Images by Tag" [label="(8)\nImages by Tag"]
+  "Images by Tag" [label="(7)\nImages by Tag"]
+  "Delete Image" [label="(8)\nDelete Image"]
   "Share Image" [label="(9)\nShare Image"]
   "Required Tag Association" [label="(10)\nRequired Tag Association"]
   "Modify Tag List" [label="(11)\nModify Tag List"]
 
   "Add Style" -> "Image Index"
-  "Delete Image" -> "Image Index"
+  "Delete Image" -> "Images by Tag"
   "Image Index" -> "Save Image Link"
   "Image Seeds" -> "Image Index"
   "Image Tags" -> "Image Index"
