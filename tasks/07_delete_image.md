@@ -6,7 +6,7 @@ labels: unstarted
 
 #### As a user I want to delete an image.
 
-_Assignees_: @D-D-M, @lsq921224, @ragurney
+_Assignees_: @D-D-M, @lsq921224
 
 __Story__:
 Our users are awesome at adding images to our web service. Some of our users
