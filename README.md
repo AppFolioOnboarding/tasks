@@ -35,3 +35,11 @@ Then synchronize to one or more GitHub repositories via:
 New issues will be created according to lexicographic filename order when an
 issue doesn't already exist with a matching title as specified in the file's
 frontmatter. Existing issues will be updated if necessary.
+
+## How to update dependencies graph
+
+on Mac
+```
+brew install graphviz
+dot -Tpng dependencies.dot -o dependencies.png
+```
