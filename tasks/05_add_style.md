@@ -1,9 +1,6 @@
 ---
 title: Add Style
 assignee: mlewisno
-labels:
-- software engineer
-- unstarted
 ---
 
 #### As a user I want to see a visually pleasing application.

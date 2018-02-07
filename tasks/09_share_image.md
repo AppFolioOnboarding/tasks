@@ -1,7 +1,6 @@
 ---
 title: Share Image
 assignee: lsq921224
-labels: unstarted
 ---
 
 #### As a user I want to share an image with someone via email.
