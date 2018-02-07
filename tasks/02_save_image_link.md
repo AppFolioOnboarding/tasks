@@ -1,7 +1,6 @@
 ---
 title: Save Image Link
 assignee: HaominZhang
-labels: unstarted
 ---
 
 #### As a user I want to save a link to an image.

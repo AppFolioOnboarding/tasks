@@ -1,7 +1,6 @@
 ---
 title: Image Index
 assignee: connorproctor
-labels: unstarted
 ---
 
 #### As a user I want the homepage to display all saved images.

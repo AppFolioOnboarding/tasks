@@ -1,7 +1,6 @@
 ---
 title: Required Tag Association
 assignee: pololee
-labels: unstarted
 ---
 
 #### As a user I want all images to have at least one tag.
