@@ -9,9 +9,9 @@ digraph Dependencies {
   "Image Tags" [label="(6)\nImage Tags"]
   "Images by Tag" [label="(7)\nImages by Tag"]
   "Delete Image" [label="(8)\nDelete Image"]
-  "Share Image" [label="(9)\nShare Image"]
-  "Required Tag Association" [label="(10)\nRequired Tag Association"]
-  "Modify Tag List" [label="(11)\nModify Tag List"]
+  "Required Tag Association" [label="(9)\nRequired Tag Association"]
+  "Modify Tag List" [label="(10)\nModify Tag List"]
+  "Share Image" [label="(11)\nShare Image"]
 
   "Add Style" -> "Image Index"
   "Delete Image" -> "Images by Tag"
