@@ -1,6 +1,7 @@
 ---
 title: Add Style
-assignee: ramonrovirosa
+assignees:
+  - ramonrovirosa
 ---
 
 #### As a user I want to see a visually pleasing application.

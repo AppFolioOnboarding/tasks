@@ -1,6 +1,7 @@
 ---
 title: Required Tag Association
-assignee: pololee
+assignees:
+  - pololee
 ---
 
 #### As a user I want all images to have at least one tag.

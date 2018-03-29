@@ -12,9 +12,9 @@ The frontmatter of a `task.md` file can contain the following attributes:
 
 * __title__: (required) Used as the title of the issue on GitHub. The title is used as the
   unique key when syncing updated tasks with existing issues.
-* __assignee__: (optional) Assign or reassign the issue to the github username
-  specified. Existing assignee will not be removed on sync if the field is not
-  provided.
+* __assignees__: (optional) Assign or reassign the issue to the github
+  usernames specified. Existing assignees will not be removed on sync if the
+  field is not provided.
 * __labels__:(optional) When provided and the issue does not have any labels
   this list of labels will be added to the issue. Labels will be dynamically
   created with the default grey color if they don't already exist on the

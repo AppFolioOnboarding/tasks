@@ -1,6 +1,7 @@
 ---
 title: Image Tags
-assignee: shfung
+assignees:
+  - shfung
 ---
 
 #### As a user I want to add tags to images.

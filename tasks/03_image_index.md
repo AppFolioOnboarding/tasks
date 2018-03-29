@@ -1,6 +1,7 @@
 ---
 title: Image Index
-assignee: connorproctor
+assignees:
+  - connorproctor
 ---
 
 #### As a user I want the homepage to display all saved images.
