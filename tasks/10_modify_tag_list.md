@@ -1,6 +1,7 @@
 ---
 title: Modify Tag List
-assignee: wilsonyqm 
+assignees:
+  - wilsonyqm
 ---
 
 #### As a user I want to edit the tag list for an image.
