@@ -1,1 +1,4 @@
 lists/
+
+# no mac files
+.DS_Store
