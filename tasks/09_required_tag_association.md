@@ -21,7 +21,10 @@ tag is not provided.
 - [ ] All images have at least one tag.
 
 __Discussion Topic__:
-- [ ] What do you do about existing images that have no tags?
+- [ ] What do you do about existing images that have no tags? 
+	- [ ] Hint: you should probably fix them somehow. You can't just throw them away, 
+	and you shouldn't annoy your users by presenting them with validation errors 
+	if they try to open or edit a tagless image.
 
 __Dependencies__:
 - Image Tags
