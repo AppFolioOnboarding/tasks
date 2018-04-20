@@ -23,6 +23,7 @@ __Acceptance criteria__:
 
 __Discussion__:
 - [ ] Should an image's URL be editable?
+- [ ] How would you define a "valid" tag list? 
 
 __Dependencies__:
 - Image Tags
