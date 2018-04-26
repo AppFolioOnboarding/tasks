@@ -21,7 +21,14 @@ tag is not provided.
 - [ ] All images have at least one tag.
 
 __Discussion Topic__:
-- [ ] What do you do about existing images that have no tags?
+- [ ] What do you do about existing images that have no tags? 
+	- [ ] Pretend this is a production system that has been running for years with thousands of users 
+	and zillions of images. You can't just drop your production db and rebuild it. Your solution should consider the following points:
+		- [ ] You can't just delete the tagless images.
+		- [ ] You shouldn't annoy users	by presenting them with validation errors if they try to open or edit a tagless image.
+		- [ ] If your solution modifies your production db, then your solution should be able to un-modify your production db 
+			  if you decide to run an older version of your code on the production db. (Hint: what Rails mechanism performs
+			  versioned db changes?)
 
 __Dependencies__:
 - Image Tags
