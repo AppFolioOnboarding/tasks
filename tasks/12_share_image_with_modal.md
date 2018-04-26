@@ -19,6 +19,7 @@ __Acceptance criteria__:
   send the email. The form has the same fields as Part 1.
 - [ ] After the user submits the form, the modal closes, revealing the original page.
 - [ ] A flash message indicates whether the email was sent successfully.
+- [ ] If the form contents are invalid, the modal stays open and displays the validation errors.
 
 
 __Note__: The
