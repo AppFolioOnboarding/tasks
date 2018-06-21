@@ -1,4 +1,4 @@
-## Github Repo Setup
+## Project Setup
 
 ### Send invitation link
 
@@ -7,7 +7,9 @@
 
 ### Configure the repo
 
-- Add teams so that the reviewers can comment the PR.
+- Add `Collborators & teams`
+  - If they are fulltime employee, add `"mentors"` to teams.
+  - If they are interns, ONLY add your mentor
 
 ![github add teams](https://raw.githubusercontent.com/AppFolioOnboarding/tasks/master/images/github_add_teams.png)
 
@@ -17,9 +19,11 @@
 
 ### Sync tasks to the target repo
 
-- `"gem install sync_issues"` if haven't done it.
+- `"gem install sync_issues"` if haven't done it.  
+  Learn more about `sync_issues` (https://github.com/bboe/sync_issues)
 - clone this repo [https://github.com/AppFolioOnboarding/tasks](https://github.com/AppFolioOnboarding/tasks) to your local.
-- use `"update_repos.sh"` to sync tasks to the target repo. (Check the script to see how to use it.)
+- use `"update_repos.sh"` to sync tasks to the target repo. (Check the script to see how to use it.)  
+  - If they are interns, please use `"--no-assignees"` flag since the mentor should be the one handling the code reviews.
 
 ### Set up CircleCI
 
@@ -51,7 +55,7 @@
 
 - config `REVIEW APPS`, `STAGE` and `PRODUCTION`
   - `REVIEW APPS` auto deploy when a new PR created and CI passed
-  - `STATE` auto deploy when master branch changed and CI passed
+  - `STAGE` auto deploy when master branch changed and CI passed
 
 ![heroku config apps](https://raw.githubusercontent.com/AppFolioOnboarding/tasks/master/images/heroku_apps.png)
 
