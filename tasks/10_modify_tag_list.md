@@ -1,7 +1,7 @@
 ---
 title: Modify Tag List
 assignees:
-  - wilsonyqm
+  - lcguang
 ---
 
 #### As a user I want to edit the tag list for an image.
