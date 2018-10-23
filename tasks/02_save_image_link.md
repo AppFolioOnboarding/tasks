@@ -6,8 +6,6 @@ assignees:
 
 #### As a user I want to save a link to an image.
 
-_Assignees_: @HaominZhang, @XanderStrike
-
 __Story__:
 
 Now that we have an awesome landing page for our users to experience it is time
