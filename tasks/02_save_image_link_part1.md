@@ -26,25 +26,22 @@ deliverable chunk that provides value to your users with the caveat that it
 might make sense to combine two, sometimes more, tiny and related features into
 a single story.
 
-__Acceptance criteria__:
-- [ ] The landing page links to the image link submission form.
-- [ ] The link is entered through a form.
-- [ ] After the form is saved, the link is persisted in the database.
-- [ ] After the form is submitted, the user is redirected to a page displaying
-  the image.
-- [ ] I cannot successfully save an image with an invalid URL.
-- [ ] An error message is associated with the appropriate input field on
-  failure.
+For this story, we will only save the image on the frontend and will not persist to the database. Also, for this project 
+we will not use MobX, Redux or any other flux state management for the app and will only use React state.
 
-__Discussion Topic__:
-- [ ] What is a valid image URL?
+__Acceptance criteria__:
+- [ ] The landing page shows the submission form.
+- [ ] The link is entered through a form.
+- [ ] After the form is submitted, the image is displayed on the page and the submission form input fields are cleared.
 
 __Dependencies__:
 - Deployment Environment
 
+__References__:
+* https://github.com/rails/webpacker
+* https://sites.google.com/a/appfolio.com/eng/resources/code/front-end-development
+* https://reactjs.org/tutorial/tutorial.html
+
 __Note__: Many image sharing sites will permit one to upload images, or
 download images when provided a link. For this project we will only work with
 the link, i.e., URL, to various images.
-
-__Note__: To understand the database tables created by the `acts_as_taggable` gem, you may find it useful to use a program like the [DB Browser for SQLite](http://sqlitebrowser.org/).
-

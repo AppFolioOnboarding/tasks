@@ -16,11 +16,10 @@ to add those features in a future story. For now, we will keep it simple and
 quickly deliver a little more value to our users.
 
 __Acceptance criteria__:
-- [ ] New images that are added show up on the homepage.
 - [ ] These images are persisted if the browser is closed or even if the
   server is restarted.
 - [ ] Images are not displayed wider than 400px.
 - [ ] Newest images appear first.
 
 __Dependencies__:
-- Save Image Link
+- Save Image Link Part 2
