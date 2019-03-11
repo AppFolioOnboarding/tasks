@@ -32,6 +32,7 @@ __Reference material__:
 - http://martinfowler.com/bliki/PageObject.html
 - https://sites.google.com/a/appfolio.com/eng/new-hire-resources/engineering-academy/ropes/image-sharing-project/flow-tests-with-page-objects
 - https://github.com/SeleniumHQ/selenium/wiki/Ruby-Bindings#javascript-dialogs
+- Screenshot of completed project for <a href="../images/completed-screenshot.png" target="_blank">visual reference</a>
 
 __Flow Test Info__:
 

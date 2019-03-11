@@ -27,11 +27,15 @@ __Acceptance criteria__:
 - [ ] My app is responsive and is usable on a phone.
 - [ ] The active link in the navigation header is differentiated.
 - [ ] I use a bootstrap "container" to center my app contents (not necessarily "fluid").
+- [ ] My app uses `reactstrap` components where appropriate.
 
 __Reference material__:
-- http://v4-alpha.getbootstrap.com/getting-started/introduction/
-- https://github.com/plataformatec/simple_form
+- https://reactstrap.github.io/components/
+- https://getbootstrap.com/docs/4.1/getting-started/introduction/
+- https://reactjs.org/docs/faq-styling.html
+- https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822
 - http://getbem.com/naming/
+- Screenshot of completed project for <a href="../images/completed-screenshot.png" target="_blank">visual reference</a>
 
 __Dependencies__:
 - Image Index

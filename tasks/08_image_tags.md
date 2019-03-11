@@ -23,6 +23,7 @@ __Acceptance criteria__:
 
 __Reference material__:
 - https://github.com/mbleigh/acts-as-taggable-on
+- Screenshot of completed project for <a href="../images/completed-screenshot.png" target="_blank">visual reference</a>
 
 __Note__: You should allow images to have no tags; this sets the stage for a later issue.
 

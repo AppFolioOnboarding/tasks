@@ -65,7 +65,6 @@ __Acceptance criteria__:
   control.
 - [ ] The project's version of both Ruby and Rails are used both locally and on
   Heroku.
-- [ ] The landing page, `/`, provides some content.
 - [ ] Every available controller action has corresponding tests.
 - [ ] [CircleCI](https://circleci.com/) is used for Continuous Integration.
 - [ ] Heroku is used to deploy the application.
@@ -79,6 +78,7 @@ __Acceptance criteria__:
 - [ ] [Rubocop](https://github.com/bbatsov/rubocop) is used to help with code
   style consistency.
 
+
 __Discussion Topics__:
 - [ ] Where can we discover how long it takes to return an HTTP response?
 - [ ] When should we commit our code?
@@ -86,7 +86,9 @@ __Discussion Topics__:
 __References__:
 * https://rvm.io/rvm/install#try-out-your-new-rvm-installation
 * http://guides.rubyonrails.org/getting_started.html
+* https://guides.rubyonrails.org/layouts_and_rendering.html#rendering-json
 * http://guides.rubyonrails.org/testing.html#functional-tests-for-your-controllers
 * https://devcenter.heroku.com/articles/getting-started-with-rails5
 * https://devcenter.heroku.com/articles/pipelines
 * https://github.com/bbatsov/ruby-style-guide
+* https://yarnpkg.com/en/docs/usage

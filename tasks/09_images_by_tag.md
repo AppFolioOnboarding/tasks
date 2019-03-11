@@ -23,3 +23,6 @@ __Discussion topics__:
 
 __Dependencies__:
 - Image Tags
+
+__References__:
+- Screenshot of completed project for <a href="../images/completed-screenshot.png" target="_blank">visual reference</a>
