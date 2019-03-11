@@ -35,6 +35,7 @@ __Reference material__:
 - https://reactjs.org/docs/faq-styling.html
 - https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822
 - http://getbem.com/naming/
+- Screenshot of completed project for <a href="../images/completed-screenshot.png" target="_blank">visual reference</a>
 
 __Dependencies__:
 - Image Index

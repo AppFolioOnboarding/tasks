@@ -47,7 +47,7 @@ __References__:
 * https://github.com/rails/webpacker#react
 * https://sites.google.com/a/appfolio.com/eng/resources/code/front-end-development
 * https://reactjs.org/tutorial/tutorial.html
-* Screenshot of completed project for <a href="../images/completed-screenshot.png" style="border:0;" target="_blank">visual reference</a>
+* Screenshot of completed project for <a href="../images/completed-screenshot.png" target="_blank">visual reference</a>
 
 __Note__: Many image sharing sites will permit one to upload images, or
 download images when provided a link. For this project we will only work with

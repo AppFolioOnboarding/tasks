@@ -23,3 +23,6 @@ __Acceptance criteria__:
 
 __Dependencies__:
 - Save Image Link Part 2
+
+__References__:
+- Screenshot of completed project for <a href="../images/completed-screenshot.png" target="_blank">visual reference</a>

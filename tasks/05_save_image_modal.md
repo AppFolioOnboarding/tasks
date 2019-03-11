@@ -29,3 +29,4 @@ __Dependencies__:
 __Reference material__: 
 - https://reactstrap.github.io/components/
 - https://wesbos.com/javascript-modules/
+- Screenshot of completed project for <a href="../images/completed-screenshot.png" target="_blank">visual reference</a>

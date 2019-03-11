@@ -25,3 +25,6 @@ __Acceptance criteria__:
 
 __Dependencies__:
 - Image Index
+
+__References__:
+- Screenshot of completed project for <a href="../images/completed-screenshot.png" target="_blank">visual reference</a>

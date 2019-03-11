@@ -33,3 +33,6 @@ __Discussion Topic__:
 __Dependencies__:
 - Image Tags
 - Refactor flow tests to use page objects
+
+__References__:
+- Screenshot of completed project for <a href="../images/completed-screenshot.png" target="_blank">visual reference</a>
