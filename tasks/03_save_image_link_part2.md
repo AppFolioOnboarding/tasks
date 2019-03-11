@@ -12,6 +12,8 @@ Now we have an awesome form that can save images and display images after they h
 like to persist the saved images to our databse so that we do not lose our saved links when we reload the page. Since we are using React 
 on the front end, we should use a Rails API on the backend to contact the database. See screen shot for [visual reference](../images/url-form-error.png)
 
+<img src="../images/url-form-error.png" style="width: 300px; height: 300px;">
+
 __Acceptance criteria__:
 - [ ] The landing page shows the image link submission form.
 - [ ] The link is entered through a form.
