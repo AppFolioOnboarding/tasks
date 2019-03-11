@@ -65,7 +65,6 @@ __Acceptance criteria__:
   control.
 - [ ] The project's version of both Ruby and Rails are used both locally and on
   Heroku.
-- [ ] The landing page, `/` uses React to provide some content.
 - [ ] Every available controller action has corresponding tests.
 - [ ] [CircleCI](https://circleci.com/) is used for Continuous Integration.
 - [ ] Heroku is used to deploy the application.

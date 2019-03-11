@@ -10,7 +10,7 @@ __Story__:
 
 Now that we are displaying images for users and allowing them to submit on the same page, our website has become a bit
 crowded. In order to fix this problem, User Experience (UX) has suggested we move the submission form into a modal to
-clean up the page. In order to solve this, we will use `react-gears`.
+clean up the page. In order to solve this, we will use `reactstrap`.
 
 __Acceptance criteria__:
 - [ ] Ran the command `yarn install reactstrap` in their project.

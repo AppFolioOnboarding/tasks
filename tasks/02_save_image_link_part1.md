@@ -8,8 +8,12 @@ assignees:
 
 __Story__:
 
-Now that we have an awesome landing page for our users to experience it is time
-to introduce our first feature! In general, we want to deliver value to our
+Even though our main app has been created in Rails, we are going to configure our 
+landing page to use React (use the references listed below to get that going). 
+Once you have your React landing page rendering, it is time
+to introduce our first feature! 
+
+In general, we want to deliver value to our
 customers as fast as possible. As a result, we have decided that we want our
 users to be able to save links to images, and immediately see that we have
 saved the URL to the image.
@@ -30,6 +34,7 @@ For this story, we will only save the image on the frontend and will not persist
 we will not use MobX, Redux or any other flux state management for the app and will only use React state.
 
 __Acceptance criteria__:
+- [ ] The landing page, `/` uses React to provide some content.
 - [ ] The landing page shows the submission form.
 - [ ] The link is entered through a form.
 - [ ] After the form is submitted, the image is displayed on the page and the submission form input fields are cleared.
@@ -38,7 +43,8 @@ __Dependencies__:
 - Deployment Environment
 
 __References__:
-* https://github.com/rails/webpacker
+* https://medium.com/react-on-rails/free-tutorial-how-to-use-react-with-webpacker-and-rails-5-1-92af8e8d9d63
+* https://github.com/rails/webpacker#react
 * https://sites.google.com/a/appfolio.com/eng/resources/code/front-end-development
 * https://reactjs.org/tutorial/tutorial.html
 
