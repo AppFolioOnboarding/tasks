@@ -10,9 +10,7 @@ __Story__:
 
 Now we have an awesome form that can save images and display images after they have been saved. However, now we would 
 like to persist the saved images to our databse so that we do not lose our saved links when we reload the page. Since we are using React 
-on the front end, we should use a Rails API on the backend to contact the database. See screen shot for [visual reference](../images/url-form-error.png)
-
-<img src="../images/url-form-error.png" style="width: 300px; height: 300px;">
+on the front end, we should use a Rails API on the backend to contact the database.
 
 __Acceptance criteria__:
 - [ ] The landing page shows the image link submission form.
@@ -30,6 +28,9 @@ __Discussion Topic__:
 
 __Dependencies__:
 - Deployment Environment
+
+__References__:
+* Screenshot of completed project for <a href="../images/completed-screenshot.png" style="border:0;" target="_blank">visual reference</a>
 
 __Note__: Many image sharing sites will permit one to upload images, or
 download images when provided a link. For this project we will only work with
