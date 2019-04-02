@@ -3,7 +3,7 @@
 ### Send invitation link
 
 - The link https://classroom.github.com/assignment-invitations/cf5baec65a407a61e98221b759d25af0
-- Get the link and click accept. Github will auto create a new copy of [base project](https://github.com/AppFolioOnboarding/base)
+- Once the individual accepts the invitation, Github will automatically create a new copy of the [base project](https://github.com/AppFolioOnboarding/base) named `image-sharer-<GitHub Username>`.
 
 ### Configure the repo
 
@@ -19,10 +19,11 @@
 
 ### Sync tasks to the target repo
 
-- `"gem install sync_issues"` if haven't done it.  
+- `"gem install sync_issues"` if haven't done it.
   Learn more about `sync_issues` (https://github.com/bboe/sync_issues)
-- clone this repo [https://github.com/AppFolioOnboarding/tasks](https://github.com/AppFolioOnboarding/tasks) to your local.
-- use `"update_repos.sh"` to sync tasks to the target repo. (Check the script to see how to use it.)  
+- Clone this repo [https://github.com/AppFolioOnboarding/tasks](https://github.com/AppFolioOnboarding/tasks) to your local machine.
+- You may need to create a directory named `lists` in the root directory of the cloned `tasks` repository. You can place either a `fulltime.txt` or `interns.txt` file depending on the status of the individual(s). These files contain multiple image sharer repository names, newline separated. See the `update_repos.sh` script for more information
+- Use `"update_repos.sh"` to sync tasks to the target repo.
   - If they are interns, please use `"--no-assignees"` flag since the mentor should be the one handling the code reviews.
 
 ### Set up CircleCI
@@ -48,14 +49,17 @@
 
 - `"brew install heroku/brew/heroku"` if you haven't done it.
 - Check pinned items in slack #ropes channel to find heroku login credentails. Log in at [https://id.heroku.com/login](https://id.heroku.com/login)
-- use `ropes_heroku.sh` script to create app on heroku(use the repo name as the APP_NAME)
-- connect your heroku to your github repo.
+- Use `ropes_heroku.sh` script to create app on heroku(use the repo name as the APP_NAME)
+- Connect your heroku to your github repo.
 
 ![heroku connect github](https://raw.githubusercontent.com/AppFolioOnboarding/tasks/master/images/heroku_github.png)
 
-- config `REVIEW APPS`, `STAGE` and `PRODUCTION`
+- Configure `REVIEW APPS`, `STAGING` and `PRODUCTION`
   - `REVIEW APPS` auto deploy when a new PR created and CI passed
   - `STAGE` auto deploy when master branch changed and CI passed
 
 ![heroku config apps](https://raw.githubusercontent.com/AppFolioOnboarding/tasks/master/images/heroku_apps.png)
 
+- Provision PostgreSQL and/or Sendgrid resources for `STAGING` and `PRODUCTION`
+
+![heroku config apps](https://raw.githubusercontent.com/AppFolioOnboarding/tasks/master/images/heroku_resources.png)
