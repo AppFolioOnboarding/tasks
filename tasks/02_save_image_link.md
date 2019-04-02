@@ -39,6 +39,9 @@ __Acceptance criteria__:
 __Discussion Topic__:
 - [ ] What is a valid image URL?
 
+__Reference material__:
+- https://github.com/plataformatec/simple_form
+
 __Dependencies__:
 - Deployment Environment
 
