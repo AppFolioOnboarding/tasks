@@ -71,6 +71,13 @@ reference material below.
 
 __Important Notes__:
 
+
+We have an AppFolio Engineering Academy session on Selenium and Page Objects. It would be helpful to attend this session before doing this story, but because it can be hard to schedule everyone, here are the slides and a recording of the Apr 12 2019 session:
+
+- Slides: https://docs.google.com/presentation/d/1ytto5-U93VeCTA9krRg8_c8o_5vadpucp9AbVTEasBA/edit#slide=id.g35b2d5d377_2_5
+- Video: https://transcripts.gotomeeting.com/#/s/c1ebcf43f5387db5a610e9ccdff697cd3b9596ab70153fe4059f5bee27750d4d
+
+
 As of November 2016, a specific older Firefox version,
 47.0.1, is required to work properly with AePageObjects, Capybara, and
 Selenium. This version comes on AppFolio developer laptop images by default,
