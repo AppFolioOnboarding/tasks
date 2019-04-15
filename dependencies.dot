@@ -11,7 +11,8 @@ digraph Dependencies {
   "Delete Image" [label="(8)\nDelete Image"]
   "Required Tag Association" [label="(9)\nRequired Tag Association"]
   "Modify Tag List" [label="(10)\nModify Tag List"]
-  "Share Image" [label="(11)\nShare Image"]
+  "Share Image with Page" [label="(11)\nShare Image with Page"]
+  "Share Image with Modal" [label="(12)\nShare Image with Modal"]
 
   "Add Style" -> "Image Index"
   "Delete Image" -> "Images by Tag"
@@ -22,5 +23,6 @@ digraph Dependencies {
   "Modify Tag List" -> "Image Tags"
   "Required Tag Association" -> "Image Tags"
   "Save Image Link" -> "Deployment Environment"
-  "Share Image" -> "Image Index"
+  "Share Image with Page" -> "Image Index"
+  "Share Image with Modal" -> "Share Image with Page"
 }

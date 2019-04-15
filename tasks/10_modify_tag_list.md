@@ -1,7 +1,7 @@
 ---
 title: Modify Tag List
 assignees:
-  - wilsonyqm
+  - lcguang
 ---
 
 #### As a user I want to edit the tag list for an image.
@@ -23,6 +23,7 @@ __Acceptance criteria__:
 
 __Discussion__:
 - [ ] Should an image's URL be editable?
+- [ ] How would you define a "valid" tag list? 
 
 __Dependencies__:
 - Image Tags

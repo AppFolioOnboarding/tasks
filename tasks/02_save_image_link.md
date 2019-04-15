@@ -6,8 +6,6 @@ assignees:
 
 #### As a user I want to save a link to an image.
 
-_Assignees_: @HaominZhang, @XanderStrike
-
 __Story__:
 
 Now that we have an awesome landing page for our users to experience it is time
@@ -47,3 +45,6 @@ __Dependencies__:
 __Note__: Many image sharing sites will permit one to upload images, or
 download images when provided a link. For this project we will only work with
 the link, i.e., URL, to various images.
+
+__Note__: To understand the database tables created by the `acts_as_taggable` gem, you may find it useful to use a program like the [DB Browser for SQLite](http://sqlitebrowser.org/).
+

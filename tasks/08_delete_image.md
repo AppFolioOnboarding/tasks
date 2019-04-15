@@ -6,8 +6,6 @@ assignees:
 
 #### As a user I want to delete an image.
 
-_Assignees_: @D-D-M, @lsq921224
-
 __Story__:
 Our users are awesome at adding images to our web service. Some of our users
 add dozens in a single session. Occasionally, however, some users add the wrong
@@ -72,14 +70,16 @@ reference material below.
 __Important Notes__:
 
 
-We have an AppFolio Engineering Academy session on Selenium and Page Objects. It would be helpful to attend this session before doing this story, but because it can be hard to schedule everyone, here are the slides and a recording of the Apr 12 2019 session:
+**Academy session on Page Objects:** We have an AppFolio Engineering Academy session on Selenium and Page Objects. It would be helpful to attend this session before doing this story, but because it can be hard to schedule everyone, here are the slides and a recording of the Apr 12 2019 session:
 
 - Slides: https://docs.google.com/presentation/d/1ytto5-U93VeCTA9krRg8_c8o_5vadpucp9AbVTEasBA/edit#slide=id.g35b2d5d377_2_5
 - Video: https://transcripts.gotomeeting.com/#/s/c1ebcf43f5387db5a610e9ccdff697cd3b9596ab70153fe4059f5bee27750d4d
 
 
-As of November 2016, a specific older Firefox version,
-47.0.1, is required to work properly with AePageObjects, Capybara, and
+**Firefox version:** Generally you should upgrade your Firefox to the latest version before attempting to use 
+AePageObjects, Capybara, and Selenium. However, sometimes swapping out your Firefox version can resolve weird errors.
+For example, between November 2016 and mid-2018, a specific older Firefox version,
+47.0.1, was required to work properly with AePageObjects, Capybara, and
 Selenium. This version comes on AppFolio developer laptop images by default,
 but if you've used Firefox, it may have updated to a newer version that won't
 work, and you'll need to replace it (or install it side-by-side) with 47.0.1
@@ -87,10 +87,14 @@ version from here:
 
 - https://ftp.mozilla.org/pub/firefox/releases/47.0.1/mac/en-US/
 
+To facilitate swapping between Firefox versions, it's useful to have multiple versions in `/Applications/`:
+`Firefox-47.app`, `Firefox-59.app`, `Firefox-64.app`, 
+and then simply copy/paste the one you want to use, and rename it  `Firefox.app`. 
+
 Problems that you may see with newer Firefox versions may include
  - failing to open a Firefox window for testing
  - open a Firefox window but failing to load any pages into it
  - other strange issues such as pages loading, but failing to open browser modal alert/confirm dialogs.
 
-When dealing with javascript confirm() dialog in the flow test, this [reference](https://github.com/SeleniumHQ/selenium/wiki/Ruby-Bindings#javascript-dialogs)
+**Selenium and JavaScript:** When dealing with javascript confirm() dialog in the flow test, this [reference](https://github.com/SeleniumHQ/selenium/wiki/Ruby-Bindings#javascript-dialogs)
 will be helpful.
