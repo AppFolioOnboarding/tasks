@@ -24,20 +24,6 @@ locally before committing code, we have configured CircleCI as our automated
 continuous integration system; that is, CircleCI will run all the tests on a
 branch whenever you push a modification to it on GitHub.
 
-Finally, you have a complete deployment pipeline set up on Heroku. With this
-pipeline, there are three steps used for testing your application. Review
-applications are automatically created whenever you make a pull request. There
-can be as many review applications as you have open pull requests. This step
-enables you to perform quality assurance (QA) tests while you are developing a
-feature. The second step, staging, is used to ensure no bugs are introduced as
-the result of a feature branch merge into master. The staging server is as
-close of a replica to your production server there is, so it provides a great
-way to ensure that changes will not negatively impact your customers. The
-staging server is automatically deployed whenever the master branch is updated
-and the automated tests pass. The last step is production. This step contains
-your production application, and the goal is for that server to have zero
-unscheduled downtime – all of the other steps work toward that effort.
-
 Please keep in mind that each feature delivers a modicum of value to either
 your users, or to aid in your development of the website. You want to deliver
 value to your users fast, so some features, like authentication, are saved
@@ -63,19 +49,9 @@ Happy coding!
 __Acceptance criteria__:
 - [ ] [GitHub](https://github.com/AppFolioOnboarding) is used for source
   control.
-- [ ] The project's version of both Ruby and Rails are used both locally and on
-  Heroku.
 - [ ] The landing page, `/`, provides some content.
 - [ ] Every available controller action has corresponding tests.
 - [ ] [CircleCI](https://circleci.com/) is used for Continuous Integration.
-- [ ] Heroku is used to deploy the application.
-- [ ] Pull requests are automatically deployed as review applications.
-- [ ] The staging application automatically deploys whenever the master branch
-  is updated.
-- [ ] The staging application automatically deploys only after all tests pass
-  on CircleCI.
-- [ ] The staging application deployment can be promoted to the production
-  application deployment.
 - [ ] [Rubocop](https://github.com/bbatsov/rubocop) is used to help with code
   style consistency.
 
@@ -87,6 +63,4 @@ __References__:
 * https://rvm.io/rvm/install#try-out-your-new-rvm-installation
 * http://guides.rubyonrails.org/getting_started.html
 * http://guides.rubyonrails.org/testing.html#functional-tests-for-your-controllers
-* https://devcenter.heroku.com/articles/getting-started-with-rails5
-* https://devcenter.heroku.com/articles/pipelines
 * https://github.com/bbatsov/ruby-style-guide
