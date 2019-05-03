@@ -35,6 +35,7 @@ __Acceptance criteria__:
 - [ ] I cannot successfully save an image with an invalid URL.
 - [ ] An error message is associated with the appropriate input field on
   failure.
+- [ ] A flash message is displayed indicating the image was created successfully
 
 __Discussion Topic__:
 - [ ] What is a valid image URL?
