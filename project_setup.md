@@ -23,8 +23,8 @@
   Learn more about `sync_issues` (https://github.com/bboe/sync_issues)
 - Clone this repo [https://github.com/AppFolioOnboarding/tasks](https://github.com/AppFolioOnboarding/tasks) to your local machine.
 - You may need to create a directory named `lists` in the root directory of the cloned `tasks` repository. You can place either a `fulltime.txt` or `interns.txt` file depending on the status of the individual(s). These files contain multiple image sharer repository names, newline separated. See the `update_repos.sh` script for more information
-- Use `"update_repos.sh"` to sync tasks to the target repo.
-  - If they are interns, please use `"--no-assignees"` flag since the mentor should be the one handling the code reviews.
+- Use `./update_repos.sh` to sync tasks to the target repo.
+  - If they are interns, please use `./update_repos.sh interns`, which will use the `lists/interns` file and the `--no-assignees` flag, since the mentor should be the one handling the code reviews.
 
 ### Set up CircleCI
 
