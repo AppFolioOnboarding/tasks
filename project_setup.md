@@ -45,6 +45,15 @@
 
 ![circle ci builds](https://raw.githubusercontent.com/AppFolioOnboarding/tasks/master/images/circleci_builds.png)
 
+- SSH into CCI and generate an SSH keypair (how?), then copy the public key to your github Image Sharer repo, so that CCI can check out your Image Sharer repo from github. If you don't, you might see the error:
+
+    Using SSH Config Dir /home/circleci/.ssh
+    Cloning into '.'...
+    Warning: Permanently added the RSA host key for IP address '140.82.114.3' to the list of known hosts.
+    Enter passphrase for key '/home/circleci/.ssh/id_rsa': 
+
+... and the CCI run will stall.
+
 ### Set up Heroku
 
 - `"brew install heroku/brew/heroku"` if you haven't done it.
