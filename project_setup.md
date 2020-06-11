@@ -45,7 +45,18 @@
 
 ![circle ci builds](https://raw.githubusercontent.com/AppFolioOnboarding/tasks/master/images/circleci_builds.png)
 
-- SSH into CCI and generate an SSH keypair (how?), then copy the public key to your github Image Sharer repo, so that CCI can check out your Image Sharer repo from github. If you don't, you might see the error:
+- Configure CCI with access to your Image Sharer repo on github:
+
+  - from the CCI project settings page, below the deploy key section, I added a User Key
+
+![circle ci add user key](https://raw.githubusercontent.com/AppFolioOnboarding/tasks/master/images/cci-user-key-dialog.png)
+  
+  - Theres a Add User Key button, it will auto-generate one for you. I didnt have to do anything manually.
+  - CCI uses the Github integration to link it up, to add the key to github (since you’ve already “logged in with Github”)
+  - restarted the build looks like it was able to check out the code
+
+
+*Note* Skipping this step may result in this error:
 
 ```
     Using SSH Config Dir /home/circleci/.ssh
