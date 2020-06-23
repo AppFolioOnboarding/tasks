@@ -11,7 +11,7 @@ Your users are loving the image sharer application, and want to give their opini
 
 We will practice the act of “slicing” stories into small, quick to test and deliver parts. For this issue, you will be asked to add footer text to the existing boilerplate code. There are existing TODO comments in the code.
 
-In `app/assets/javascripts/image_sharing` you will find the starting code for this feedback form. The rundown of directories are:
+In `app/javascripts/image_sharing` you will find the starting code for this feedback form. The rundown of directories are:
 - `components` holds all React components, potentially namespaced by more directories
 - `services` holds the service objects you may need - some examples include api calls, asynchronous I/O, etc.
 - `stores` holds MobX state stores (see references/documentation related to MobX)
